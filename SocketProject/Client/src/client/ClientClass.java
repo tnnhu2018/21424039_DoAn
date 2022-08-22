@@ -4,10 +4,6 @@
  */
 package client;
 
-/**
- *
- * @author ThienNgo
- */
 public class ClientClass {
     
 }

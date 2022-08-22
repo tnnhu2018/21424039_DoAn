@@ -16,10 +16,6 @@ import javax.swing.JList;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author ThienNgo
- */
 public class SocketClientClass extends Thread {
     protected Socket socket;
     protected JTable JTClient;

@@ -9,10 +9,6 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
-/**
- *
- * @author ThienNgo
- */
 public class ServerClass {
     private String IP;
     private int Port;
