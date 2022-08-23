@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package server;
-
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -19,7 +18,6 @@ import javax.swing.table.DefaultTableModel;
 public class SocketClientClass extends Thread {
     protected Socket socket;
     protected JTable JTClient;
-
     public SocketClientClass(Socket _socket, JTable _JTClient) {
         this.socket = _socket;
         this.JTClient = _JTClient;

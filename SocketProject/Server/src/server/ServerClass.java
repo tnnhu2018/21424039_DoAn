@@ -8,17 +8,14 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
-
 public class ServerClass {
     private String IP;
     private int Port;
     private ServerSocket listener;
-    
     ServerClass(int _Port) throws IOException{
         this.Port = _Port;
         this.listener = new ServerSocket(this.Port);
     }
-    
     public Socket Listen(){
         try {
           
