@@ -17,7 +17,6 @@ public class ServerClass {
     }
     public Socket Listen(){
         try {
-          
            Socket socket = listener.accept();
            return socket;
        } catch (IOException e) {
