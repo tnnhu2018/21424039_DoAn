@@ -15,19 +15,14 @@ import javax.swing.DefaultListModel;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author ThienNgo
- */
+
 public class ServerFrame extends javax.swing.JFrame implements Runnable {
     private ServerSocket ss = null;
     private ServerFrame thisServer;
     private int serverPort = 9112;
     private Thread t;
     DefaultTableModel modelClient;
-    /**
-     * Creates new form ServerFrame
-     */
+
     public ServerFrame() {
         initComponents();
         thisServer = this;
