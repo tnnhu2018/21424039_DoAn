@@ -25,7 +25,6 @@ public class ServerClass {
            return null;
        }
     }
-   
     public void Close(){
         
     }
